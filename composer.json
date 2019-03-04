@@ -1,0 +1,19 @@
+{
+    "name": "liyanwen0710/oa-composer-test",
+    "description": "just for test. use carefully.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liyanwen",
+            "email": "liyanwen@kuainiugroup.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Finlab\\Packages\\":"src/"
+        }
+    }
+}
