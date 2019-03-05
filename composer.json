@@ -15,5 +15,12 @@
         "psr-4": {
             "Finlab\\Packages\\":"src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Finlab\\Packages\\MD5HasherServiceProvider"
+            ]
+        }
     }
 }
